@@ -16,15 +16,19 @@ Dieses Applet bietet eine umfassende Übersicht über die Systemauslastung direk
 
 ### 1. Manuelle Installation
 
-1.  Laden Sie das Applet-Archiv (z.B. von GitHub) herunter.
-2.  Extrahieren Sie den Ordner **`combined-monitor@danipin`**.
-3.  Kopieren Sie diesen Ordner in Ihr lokales Cinnamon-Applet-Verzeichnis:
+1.  Laden Sie das Applet-Archiv (z.B. von GitHub) herunter und entpacken Sie es. Der entstandene Ordner heißt z.B. `cinnamon-combined-monitor-1.0.3`.
+
+2.  **❗ WICHTIG – Ordner umbenennen ❗**
+    Der Ordner muss für Cinnamon **zwingend** in den Namen der Applet-UUID umbenannt werden: **`combined-monitor@danipin`**
+
+3.  Kopieren Sie den **umbenannten Ordner** in Ihr lokales Cinnamon-Applet-Verzeichnis:
 
     ```bash
     cp -r combined-monitor@danipin ~/.local/share/cinnamon/applets/
     ```
 
 4.  **Cinnamon neu starten** (entweder durch Abmelden/Anmelden oder mit der Tastenkombination `Alt` + `F2`, gefolgt von `r` und `Enter`).
+
 5.  Fügen Sie das Applet über die **Systemeinstellungen -> Applets** zur Leiste hinzu.
 
 ### 2. Installation über Cinnamon Spices (Zukünftig)
@@ -35,7 +39,7 @@ Sobald das Applet von Cinnamon genehmigt wurde, können Sie es direkt über die 
 
 * **Linksklick auf das Applet:** Öffnet ein Kontextmenü zur schnellen Auswahl von **Trennzeichen**-Voreinstellungen und **Symbol**-Icons (inklusive Vorschau).
 * **Mausrad über dem Applet:** Ändert schnell die **Layout-Variante** (z.B. von CPU | RAM | SWAP zu RAM | CPU | SWAP).
-* **Rechtsklick -> Konfigurieren:** Ermöglicht die detaillierte Einstellung von Schwellwerten, Farben, Textlabels und Aktualisierungsintervallen.
+* **Rechtsklick auf das Applet:** Öffnet das **Konfigurationsmenü** mit allen detaillierten Optionen.
 
-## 📝 Lizenz
-Dieses Applet wird unter der MIT-Lizenz veröffentlicht.
+## 📜 Lizenz
+Dieses Applet ist unter der MIT-Lizenz veröffentlicht.
