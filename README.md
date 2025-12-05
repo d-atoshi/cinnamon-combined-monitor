@@ -16,7 +16,7 @@ Dieses Applet bietet eine umfassende Übersicht über die Systemauslastung direk
 
 ### 1. Manuelle Installation
 
-1.  Laden Sie das Applet-Archiv (z.B. von GitHub) herunter und entpacken Sie es. Der entstandene Ordner heißt z.B. `cinnamon-combined-monitor-1.0.3`.
+1.  Laden Sie das Applet-Archiv (z.B. von GitHub) herunter und entpacken Sie es. Der entstandene Ordner heißt z.B. `cinnamon-combined-monitor-main`.
 
 2.  **❗ WICHTIG – Ordner umbenennen ❗**
     Der Ordner muss für Cinnamon **zwingend** in den Namen der Applet-UUID umbenannt werden: **`combined-monitor@danipin`**
