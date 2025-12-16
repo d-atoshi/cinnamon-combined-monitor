@@ -45,3 +45,22 @@ Once the applet is approved by Cinnamon, you can install it directly via the App
 
 * **Left-click on the Applet:** Opens a context menu for quick selection of **Separator** presets, **Symbol** icons (including preview), and **Profile Management** (Loading/Saving configurations).
 * **Mouse wheel over the Applet:** Quickly changes the **Layout Variant** (CPU, TEMP, RAM, SWAP) if multiple metrics are displayed.
+
+### 🔧 Troubleshooting: Temperature not displayed?
+
+If the temperature does not appear, the corresponding kernel modules often need to be loaded first.
+
+**Step 1: Install lm-sensors**
+```bash
+sudo apt install lm-sensors
+```
+**Step 2: Configure Sensors Run the detection process and confirm the prompts:**
+
+```bash
+sudo sensors-detect
+```
+**Step 3: Verify Functionality Type sensors in the terminal. If a CPU temperature is listed there, the applet can now read it as well.**
+
+```bash
+sensors
+```
